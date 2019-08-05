@@ -31,9 +31,9 @@ using namespace std;
 bool anagramDetect(string normal, string anagram);
 
 int main(){
-    cout << "***********************************************" << endl;
-    cout << "*       Welcome to the anagram detector!      *" << endl;
-    cout << "***********************************************" << endl;
+    cout << "***********************************************" << endl
+         << "*       Welcome to the anagram detector!      *" << endl
+         << "***********************************************" << endl;
     
     string anagramWord = "";
     cout << "Enter the anagram:";
